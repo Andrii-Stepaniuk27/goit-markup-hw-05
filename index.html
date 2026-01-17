@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -471,7 +471,12 @@
         <div class="footer-subscribe-container">
           <p class="input-text">Subscribe</p>
           <form class="footer-subscribe">
-            <input type="email" placeholder="E-mail" class="input-subscribe" />
+            <input
+              type="email"
+              name="user-email"
+              placeholder="E-mail"
+              class="input-subscribe"
+            />
             <button type="submit" class="input-btn-subscribe">
               Subscribe
               <svg class="input-btn-icon" width="24" height="24">
@@ -482,7 +487,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
       <div class="modal">
         <button type="button" class="modal-close">
           <svg class="modal-close-icon" width="8" height="8">
@@ -560,7 +565,7 @@
             >
           </div>
           <div class="modal-btn-wrapper">
-            <button type="submit" class="modal-submit-btn">Submit</button>
+            <button type="submit" class="modal-submit-btn">Send</button>
           </div>
         </form>
       </div>
