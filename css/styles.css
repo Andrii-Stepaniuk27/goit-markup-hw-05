@@ -534,11 +534,11 @@ a {
   pointer-events: none;
 }
 .modal-input:focus {
-  border-color: #404bbf;
+  border-color: #4d5ae5;
   outline: none;
 }
 .modal-input:focus + .modal-input-icon {
-  fill: #404bbf;
+  fill: #4d5ae5;
 }
 .modal-input-icon-wrapper {
   position: relative;
@@ -578,7 +578,7 @@ a {
 }
 .modal-text-area:focus {
   outline: none;
-  border-color: #404bbf;
+  border-color: #4d5ae5;
 }
 
 .modal-consent-label {
